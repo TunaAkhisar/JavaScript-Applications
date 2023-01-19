@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Credit Calculator</title>
+</head> 
+<body>
+
+    <h1>Credit Calculator Form</h1>
+
+    <form action="#" id="formCredit">
+        <label for="txtCreditAmount">Enter the Loan Amount to Be Withdrawn : </label>
+        <input type="text" name="" id="txtCreditAmount">
+
+        <label for="listDuration">Choose a Loan Term : </label>
+        <select name="" id="listDuration">
+            <option value="12">12 month</option>
+            <option value="24">24 month</option>
+            <option value="36">36 month</option>
+            <option value="48">48 month</option>
+        </select>
+
+        <input type="button" value="Calculate Loan Repayment" onclick="calculateCredit()">
+
+    </form>
+
+    <h3 id="calculateLoanRepayment"></h3>
+    <h3 id="monthlyInstallment"></h3>
+
+    
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
