@@ -1,0 +1,28 @@
+{
+    "questions":[
+        {
+            "question": "Which of the following is a client-side web programming language?",
+            "A": "PHP",
+            "B": "ASP",
+            "C": "JavaScript",
+            "D": "JSON",
+            "correctAnswer": "C"
+        },
+        {
+            "question": "Which of the following is not a JavaScript object capture function?",
+            "A": "getElementByID()",
+            "B": "getElementsClassName()",
+            "C": "getSelector()",
+            "D": "querySelectorAll()",
+            "correctAnswer": "C"
+        },
+        {
+            "question": "Which of the following is not a JavaScript print function?",
+            "A": "alert()",
+            "B": "console.log()",
+            "C": "document.Write()",
+            "D": "addEventListener()",
+            "correctAnswer": "D"
+        }
+    ]
+}

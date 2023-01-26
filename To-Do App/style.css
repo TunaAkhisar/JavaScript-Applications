@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form,span{
+    margin: auto;
+    width: 80%;
+    border: thin solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+input[type=button],input[type=text]{
+
+    margin: 0.25rem;
+}
+h3,h4,li{
+    text-align: center;
+}
+form>label{
+    border-right: thin solid black;
+    border-bottom: thin solid black;
+}
+
+li img{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.25rem;
+}
